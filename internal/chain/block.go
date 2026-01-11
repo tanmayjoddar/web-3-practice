@@ -33,7 +33,3 @@ func (b *BlockService) GetBlockByNumber (
 	) (*types.Block,error){
 		block, err := b.client.rpc.GetBlockByNumber(ctx,nil)
 	}
-
-	func (){
-
-	}
