@@ -25,7 +25,7 @@ func (b *BlockService) GetBlockByNumber (
 			err,
 		}
 	}
-	  return block, nil 
+	  return block, nil
 	}
 
 	func (b *NewBlockService) GetLatestBlock(
