@@ -18,7 +18,7 @@ func NewBlockService(client *Client) *BlocckService {
 
 
 
-func (b *BlockService) GetBlockByNumber (
+func   (b *BlockService) GetBlockByNumber (
 	   ctx context.Context,
 		 blockNumber uint64
 )  (*types.Block , error) {
